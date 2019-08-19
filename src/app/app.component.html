@@ -1,4 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<app-form-usuario [usuario]="usuario" [usuarios]="usuarios" (usuarioCadastrado)="reciverFeedback($event)"></app-form-usuario>
+<app-list-usuario [usuarios]="usuarios" ></app-list-usuario>
+<!--
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
@@ -17,5 +20,5 @@
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
 </ul>
-
+-->
 <router-outlet></router-outlet>
